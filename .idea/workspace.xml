@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b005d60-ec71-4494-8ae6-342cd906cf56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/all/issue-display/issue/issue.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/all/issue-display/issue/issue.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/all/issue-display/issue/issue.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/all/issue-display/issue/issue.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/stores/issue/issue.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/stores/issue/issue.reducer.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vNtRy95FkrZw5qlCHzRgdPkO6R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NewProject/news-reel2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (login-ngrx)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (login-ngrx)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b005d60-ec71-4494-8ae6-342cd906cf56" name="Default Changelist" comment="" />
+      <created>1626414369596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626414369596</updated>
+      <workItem from="1626414371159" duration="2273000" />
+      <workItem from="1626418498583" duration="479000" />
+      <workItem from="1626428811674" duration="453000" />
+      <workItem from="1626433268359" duration="1457000" />
+      <workItem from="1626434951718" duration="146000" />
+      <workItem from="1626435153319" duration="1453000" />
+      <workItem from="1626441011520" duration="482000" />
+      <workItem from="1626442443184" duration="360000" />
+      <workItem from="1626442829448" duration="1741000" />
+      <workItem from="1626444648663" duration="764000" />
+      <workItem from="1626445625919" duration="1586000" />
+      <workItem from="1626447330047" duration="1790000" />
+      <workItem from="1626449251132" duration="1731000" />
+      <workItem from="1626451069048" duration="1214000" />
+      <workItem from="1626454054142" duration="753000" />
+      <workItem from="1626455532934" duration="1084000" />
+      <workItem from="1626638099135" duration="1068000" />
+      <workItem from="1626640654514" duration="1790000" />
+      <workItem from="1626642475508" duration="593000" />
+      <workItem from="1626644733814" duration="1847000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

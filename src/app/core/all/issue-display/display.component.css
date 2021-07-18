@@ -1,0 +1,34 @@
+.issues-header {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+}
+
+.mat-line div {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.mat-line mat-icon {
+  margin-right: 5px;
+}
+
+mat-list-item .mat-icon {
+  border-radius: 15px;
+  color: #fff;
+}
+
+mat-list-item .mat-icon.open {
+  background-color: #28a745;
+}
+
+mat-list-item .mat-icon.closed {
+  background-color: #888;
+}
+
+.no-issues {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 400;
+}

@@ -1,0 +1,26 @@
+<ng-container *ngIf="(pet) as currentPet">
+  <div class="product-grid">
+
+    <mat-list-item class="issue-border">
+
+      <div mat-line class="issue-title">
+        <div mat-line (click)="onIssueClick()" class="text">
+          {{currentPet?.title}} {{currentPet?.created ? '' : '(creating...)'}}
+        </div>
+        <div *ngIf="currentPet?.loading" class="d-flex">
+          <mat-spinner color="primary" diameter="20" class="mr-2"></mat-spinner>
+          Loading...
+        </div>
+      </div>
+
+      <div mat-line class="issue-desc mb-1"> {{currentPet?.description}} </div>
+
+      <div mat-line class="issue-meta" *ngIf="currentPet?.created">
+        {{currentPet?.author}}
+      </div>
+
+    </mat-list-item>
+
+  </div>
+</ng-container>
+

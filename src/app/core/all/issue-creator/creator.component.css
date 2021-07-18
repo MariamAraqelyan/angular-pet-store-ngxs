@@ -1,0 +1,45 @@
+.creator-card {
+ width: 100%;
+}
+
+.creator-header-image {
+  background-image: url('/assets/banner/dog_pet.jpeg');
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.issue-form {
+  width: 100%;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.priority-val {
+  /* font-family: 'Nerko One', cursive; */
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+mat-card mat-card-subtitle {
+  font-size: 19px;
+}
+
+.title-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn.btn-info {
+  font-family: 'Roboto';
+}
+
+mat-card-subtitle div {
+  font-size: 15px;
+}

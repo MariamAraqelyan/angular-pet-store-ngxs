@@ -1,0 +1,35 @@
+.issue-border {
+  border-right: 1px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.mat-line.issue-desc {
+  color: #666666;
+  font-size: 13px !important;
+  line-height: 22px;
+}
+
+.mat-line.issue-title {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat-line.issue-meta {
+  font-size: 13px !important;
+  color: #888;
+}
+
+.mat-line.issue-title .text:hover {
+  cursor: pointer;
+  color: #3333ff;
+}
+
+.product-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin: 10px auto;
+}
