@@ -3,20 +3,37 @@
 
     <mat-list-item class="issue-border">
 
-      <div mat-line class="issue-title">
-        <div mat-line (click)="onIssueClick()" class="text">
-          {{currentPet?.title}} {{currentPet?.created ? '' : '(creating...)'}}
-        </div>
-        <div *ngIf="currentPet?.loading" class="d-flex">
-          <mat-spinner color="primary" diameter="20" class="mr-2"></mat-spinner>
-          Loading...
-        </div>
+      <div class="image-block">
+            <img src="assets/image/{{currentPet?.id}}">
       </div>
 
-      <div mat-line class="issue-desc mb-1"> {{currentPet?.description}} </div>
+      <div>
+        <div mat-line class="issue-title">
+          <div mat-line class="text">
+            {{currentPet?.title}} {{currentPet?.created ? '' : '(creating...)'}}
+          </div>
+          <div *ngIf="currentPet?.loading" class="d-flex">
+            <mat-spinner color="primary" diameter="20" class="mr-2"></mat-spinner>
+            Loading...
+          </div>
+        </div>
 
-      <div mat-line class="issue-meta" *ngIf="currentPet?.created">
-        {{currentPet?.author}}
+        <div mat-line class="issue-desc mb-1"> {{currentPet?.description}} </div>
+
+        <div mat-line class="issue-meta" *ngIf="currentPet?.created">
+          {{currentPet?.author}}
+        </div>
+
+        <mat-card-actions>
+          <button mat-raised-button class="margin-right" (click)="onIssueClick()">
+                View All Details
+          </button>
+
+          <button mat-raised-button>
+            View Details
+          </button>
+
+        </mat-card-actions>
       </div>
 
     </mat-list-item>

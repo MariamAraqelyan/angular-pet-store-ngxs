@@ -1,6 +1,21 @@
 .issue-border {
-  border-right: 1px solid #e1e4e8;
-  border-bottom: 1px solid #e1e4e8;
+  border: 1px solid #e1e4e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-block {
+  border: 1px solid #000;
+  border-radius: 5px;
+  min-width: 140px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.image-block img {
+  width: 100%;
+  height: 100%;
 }
 
 .mat-line.issue-desc {
@@ -21,15 +36,20 @@
   color: #888;
 }
 
+.mat-list-base .mat-list-item .mat-line {
+  white-space: inherit !important;
+}
+
 .mat-line.issue-title .text:hover {
   cursor: pointer;
   color: #3333ff;
 }
 
 .product-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 30px;
+  width: 80%;
   margin: 10px auto;
+}
+
+.margin-right {
+  margin-right: 5px;
 }
