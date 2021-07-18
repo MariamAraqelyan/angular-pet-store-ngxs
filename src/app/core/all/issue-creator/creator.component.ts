@@ -55,6 +55,7 @@ export class IssueCreatorComponent implements OnInit, OnChanges, AfterViewInit, 
   }
 
   ngOnInit() {
+    alert('For Get(or Create) Any Data, I used my api, which I have. And In that api I dont have image key.');
   }
 
   ngAfterViewInit() {
